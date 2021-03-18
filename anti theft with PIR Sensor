@@ -1,0 +1,24 @@
+#define BLYNK_PRINT Serial
+include<ESP8266Wifi.h>
+include<BlynkSimpleEsp8266h>
+
+char auth = "   "
+char ssid ="  "
+char pass="   "
+
+#define Ledpin D7
+#define pirpin D1
+int pirvalue;
+
+void setup(){
+Blynk.begin(auth,ssid,pass);
+
+pinMode(led, OUTPUT);
+pinMode(pirpin, INPUT);
+
+DigitalWrite(ledpin,LOW):
+}
+void loop(){
+getpinvalue();
+Blynk.run();
+}
