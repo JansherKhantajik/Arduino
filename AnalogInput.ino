@@ -18,13 +18,6 @@
   - Note: because most Arduinos have a built-in LED attached to pin 13 on the
     board, the LED is optional.
 
-  created by David Cuartielles
-  modified 30 Aug 2011
-  By Tom Igoe
-
-  This example code is in the public domain.
-
-  http://www.arduino.cc/en/Tutorial/AnalogInput
 */
 
 int sensorPin = A0;    // select the input pin for the potentiometer
@@ -48,3 +41,4 @@ void loop() {
   // stop the program for for <sensorValue> milliseconds:
   delay(sensorValue);
 }
+
