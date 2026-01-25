@@ -1,5 +1,4 @@
 #include <DHT.h>
-
 DHT dht;
 
 void setup()
@@ -26,3 +25,4 @@ void loop()
   Serial.print("\t\t");
   Serial.println(dht.toFahrenheit(temperature), 1); /* Convert temperature to Fahrenheit units */
 }
+
